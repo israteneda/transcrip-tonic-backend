@@ -1,0 +1,10 @@
+---
+description: Docs and comments must be evergreen
+alwaysApply: true
+---
+
+# Evergreen docs and comments
+
+- Write only decisions and facts. No references to conversations, "we", or step-by-step chat context.
+- Prefer short, actionable text. Omit explanatory fluff.
+- In tables or specs: state the decision (e.g. "JSON preferred; accept text/plain") without extra rationale in the doc.
