@@ -1,0 +1,9 @@
+{
+  "webhookBodyType": "simple",
+  "meetingSoftware": "google_meet",
+  "meetingTitle": "Test meeting",
+  "meetingStartTimestamp": "2025-01-15T10:00:00.000Z",
+  "meetingEndTimestamp": "2025-01-15T10:30:00.000Z",
+  "transcript": "Speaker 1: Hello everyone.\nSpeaker 2: Hi, thanks for joining.",
+  "chatMessages": ""
+}

@@ -1,0 +1,21 @@
+{
+  "name": "transcrip-tonic-webhook",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "esbuild handler.ts --bundle --platform=node --target=node20 --outfile=../dist/handler.js --format=cjs",
+    "typecheck": "tsc --noEmit",
+    "test": "npm run build && tsx ../scripts/handler.test.ts",
+    "invoke-local": "npm run build && tsx ../scripts/invoke-local.ts"
+  },
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.0.0"
+  },
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.145",
+    "@types/node": "^25.5.0",
+    "esbuild": "^0.24.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.7.0"
+  }
+}
